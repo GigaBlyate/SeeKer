@@ -1,0 +1,110 @@
+/* Основной фон главного окна */
+QMainWindow {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Темные стили для элементов QComboBox */
+QComboBox {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Стили для виджетов label, label_2 и label_3 */
+QLabel, QLabel#label_2, QLabel#label_3 {
+    color: #fff; /* Устанавливаем цвет текста в белый */
+}
+
+
+/* Фон кнопок */
+QPushButton {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+/* Фон текстовых полей */
+QLineEdit {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Выделенные элементы списка (например, в QComboBox) */
+QComboBox QAbstractItemView {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+    /* Фон выделенных элементов списка */
+    QComboBox QAbstractItemView::item:selected {
+        background-color: #555;
+    }
+
+/* Фон радиокнопок */
+QRadioButton {
+    color: #fff;
+}
+
+/* Фон чекбоксов */
+QCheckBox {
+    color: #fff;
+}
+
+/* Фон для ваших пользовательских стилей */
+/* Например: */
+/* .myCustomWidget { background-color: #666; color: #fff; } */
+
+/* Темные стили для окна "Удалить сайт" и "Добавить сайт" */
+DeleteSiteDialog, AddSiteDialog {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Фон кнопок в окне "Удалить сайт" и "Добавить сайт" */
+DeleteSiteDialog QPushButton, AddSiteDialog QPushButton {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+/* Фон текстовых полей в окне "Удалить сайт" и "Добавить сайт" */
+DeleteSiteDialog QLineEdit, AddSiteDialog QLineEdit {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Выделенные элементы списка в окне "Удалить сайт" и "Добавить сайт" */
+DeleteSiteDialog QComboBox QAbstractItemView, AddSiteDialog QComboBox QAbstractItemView {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Фон выделенных элементов списка в окне "Удалить сайт" и "Добавить сайт" */
+DeleteSiteDialog QComboBox QAbstractItemView::item:selected, AddSiteDialog QComboBox QAbstractItemView::item:selected {
+    background-color: #555;
+}
+
+/* Стили для QMessageBox и его подклассов */
+QMessageBox {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Стили для заголовка QMessageBox */
+QMessageBox QLabel {
+    color: #fff;
+}
+
+/* Стили для текста в QMessageBox */
+QMessageBox QTextBrowser {
+    background-color: #333; /* Фон текста */
+    color: #fff; /* Цвет текста */
+}

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>487</width>
-    <height>349</height>
+    <height>342</height>
    </rect>
   </property>
   <property name="font">
@@ -247,6 +247,7 @@
     </property>
     <addaction name="action"/>
     <addaction name="action_2"/>
+    <addaction name="action_4"/>
    </widget>
    <addaction name="menu"/>
   </widget>
@@ -259,6 +260,21 @@
   <action name="action_2">
    <property name="text">
     <string>Посмотреть списки</string>
+   </property>
+  </action>
+  <action name="theme_button">
+   <property name="text">
+    <string>Выбрать тему</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Сменить тему</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Сменить тему</string>
    </property>
   </action>
  </widget>
